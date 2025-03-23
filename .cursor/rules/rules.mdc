@@ -1,0 +1,25 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+## TypeScript Type Definitions
+
+1. **DO NOT create custom type definition files unless absolutely necessary**
+   - Install official type packages (@types/*) instead of creating custom definitions
+   - For React Native, always use @types/react-native
+   - For other libraries, check for official type definitions before creating custom ones
+
+2. **Type Installation Workflow**
+   - When encountering TypeScript errors related to missing types:
+     1. First check if official type definitions exist using `npm search @types/package-name`
+     2. Install the appropriate @types package with `npm install --save-dev @types/package-name`
+     3. Only create custom type definitions as a last resort when official types are not available
+
+3. **When custom type definitions are necessary**
+   - Place them in `src/types` directory
+   - Name them after the package they're typing (e.g., `custom-package.d.ts`)
+   - Keep them minimal and focused on the specific types needed
+   - Add a comment explaining why custom types were necessary
+

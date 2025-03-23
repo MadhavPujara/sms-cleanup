@@ -1,0 +1,41 @@
+{
+    "expo": {
+        "name": "app",
+        "slug": "bulk-sms-deletion",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "newArchEnabled": true,
+        "jsEngine": "hermes",
+        "splash": {
+            "image": "./assets/splash-icon.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.madhavp.bulksmsdeletion",
+            "permissions": [
+                "android.permission.READ_SMS",
+                "android.permission.SEND_SMS",
+                "android.permission.RECEIVE_SMS"
+            ]
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "75a2471b-ae58-4fef-bf8d-49a151e4ec4e"
+            }
+        },
+        "owner": "madhavp"
+    }
+}
