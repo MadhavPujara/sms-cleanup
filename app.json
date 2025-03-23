@@ -1,6 +1,6 @@
 {
     "expo": {
-        "name": "app",
+        "name": "sms-cleanup",
         "slug": "bulk-sms-deletion",
         "version": "1.0.0",
         "orientation": "portrait",
